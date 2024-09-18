@@ -1,0 +1,9 @@
+[package]
+name = "simple_file_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.3"    # For directory traversal
+infer = "0.9"      # For file type detection
+url-escape = "0.2" # For handling URL characters
